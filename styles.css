@@ -1,0 +1,56 @@
+body {
+    color: #f60e0e;
+    background: #1f0e58;
+    margin: 0px;
+    font-family: "Bebas Neue", sans-serif;
+}
+
+header {
+    border-bottom: solid 5px #f60e0e;
+    padding: 20px;
+    font-size: 50px;
+    color: #f60e0e;
+}
+
+.chamada {
+    background: #9d9cb4;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    border-left: solid 20px #9d9cb4;
+    border-right: solid 40px #9d9cb4;
+    border-bottom: solid 7px #f60e0e;
+}
+
+.chamada-de-texto {
+    margin-right: 5%;
+}
+
+.categorias-de-videos img {
+    height: 200px;
+    opacity: 0.5;
+}
+
+.categorias-de-videos {
+   border-top: solid 100px black;
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    gap: 10px;
+    border: solid 2px #ac3030;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-bottom: 20px;
+    background: #000000;
+    margin-top: 0px;
+    font-size: 40px
+}
+.categorias-de-videos img:hover {
+    opacity: 1.0;
+    border: 1px solid blue;
+}
